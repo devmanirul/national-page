@@ -7,7 +7,10 @@ function Header() {
         {/* top left */}
         <div className="top-left">বাংলাদেশ জাতীয় তথ্য বাতায়ন </div>
         {/* top right */}
-        <div className="top-right">২ শ্রাবণ ১৪৩১ English</div>
+        <div className="top-right">
+          <p className="">২ শ্রাবণ ১৪৩১</p>
+          <p className="english">English</p>
+        </div>
       </div>
       {/* top-Banner */}
       <div className="top-banner">

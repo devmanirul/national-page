@@ -11,27 +11,31 @@ header .header-top {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    padding: 5px;
+    padding: 5px 10px;
     font-family: "Tiro Bangla", serif;
 }
 
 header .header-top .topleft {
 
 }
-header .header-top .topright {
+header .header-top .top-right {
     display: flex;
     flex-direction: row;
-    gap: 20px;
+    gap: 10px;
+}
+header .header-top .top-right .english{
+    border-left: 1px solid white;
+    padding-left: 8px;
 }
 header .top-banner {
     display: flex;
     flex-direction: row;
 }
 header .top-banner .left {
-    width: 35%;
+    width: 45%;
 }
 header .top-banner .right{
-    width: 65%;
+    width: 55%;
     color: white;
 }
  
@@ -41,22 +45,22 @@ header .top-banner .right .department-container {
     gap: 1px;
 }
 header .top-banner .right .department-container .card{
-    max-width: 140px;
+    max-width: 145px;
     display: flex;
     flex-direction: row;
     gap: 10px;
     background-color: #8CC643;
     color: white;
-    padding: 5px 10px;
+    padding: 5px;
 }
-/* header .top-banner .right .department-container .first_card {
+header .top-banner .right .department-container .first_card {
     clip-path: polygon(20% 0%, 80% 0%, 100% 100%, 50% 100%);
-} */
+}
 header .top-banner .right .department-container .card:hover{
 background-color: #E40001;
 }
 header .top-banner .right .department-container .card .status{
-    font-size: 26px;
+    font-size: 20px;
     font-weight: 400;
 }
 header .top-banner .right .department-container .card .title{
