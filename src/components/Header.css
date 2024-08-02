@@ -1,0 +1,64 @@
+header {
+    max-width: 1280px;
+    margin: auto;
+}
+
+header .header-top {
+    background-color: #9E5BBA;
+    color: white;
+    border-bottom: 1px solid red;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    font-family: "Tiro Bangla", serif;
+}
+
+header .header-top .topleft {
+
+}
+header .header-top .topright {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+header .top-banner {
+    display: flex;
+    flex-direction: row;
+}
+header .top-banner .left {
+    width: 35%;
+}
+header .top-banner .right{
+    width: 65%;
+    color: white;
+}
+ 
+header .top-banner .right .department-container {
+    display: flex;
+    flex-direction: row;
+    gap: 1px;
+}
+header .top-banner .right .department-container .card{
+    max-width: 140px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    background-color: #8CC643;
+    color: white;
+    padding: 5px 10px;
+}
+/* header .top-banner .right .department-container .first_card {
+    clip-path: polygon(20% 0%, 80% 0%, 100% 100%, 50% 100%);
+} */
+header .top-banner .right .department-container .card:hover{
+background-color: #E40001;
+}
+header .top-banner .right .department-container .card .status{
+    font-size: 26px;
+    font-weight: 400;
+}
+header .top-banner .right .department-container .card .title{
+    font-size: 17px;
+}
