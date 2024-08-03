@@ -27,7 +27,7 @@ function Header() {
           {/* Department container */}
           <div className="department-container">
             {/* card 1 */}
-            <div className="card">
+            <div className="card first_card">
               <span className="status">৫৮</span>
               <span className="title">মন্ত্রণালয় ও বিভাগ</span>
             </div>
