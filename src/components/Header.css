@@ -54,13 +54,14 @@ header .top-banner .right .department-container .card{
     padding: 5px;
 }
 header .top-banner .right .department-container .first_card {
-    clip-path: polygon(20% 0%, 80% 0%, 100% 100%, 50% 100%);
+    clip-path: polygon(10% 0%, 100% 0%, 100% 100%, 30% 100%, 0% 0%);
+     padding-left: 25px;
 }
 header .top-banner .right .department-container .card:hover{
 background-color: #E40001;
 }
 header .top-banner .right .department-container .card .status{
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 400;
 }
 header .top-banner .right .department-container .card .title{
