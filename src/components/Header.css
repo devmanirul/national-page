@@ -16,7 +16,7 @@ header .header-top {
 }
 
 header .header-top .topleft {
-
+    
 }
 header .header-top .top-right {
     display: flex;
@@ -33,6 +33,7 @@ header .top-banner {
 }
 header .top-banner .left {
     width: 45%;
+    padding: 15px 25px;
 }
 header .top-banner .right{
     width: 55%;
